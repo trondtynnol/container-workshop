@@ -43,3 +43,6 @@ CMD: standardkommando som skal køyrast om ikkje noko anna er spesifisert
 Deretter: `podman build -t vim -f Containerfile`
 `-t`: tag, dvs namn
 Dette lagar eit image, som er deretter kan køyre: `podman run --rm -it -v $(pwd):/outside vim`
+
+## Rydd opp
+`podman system reset`
